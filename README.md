@@ -1,2 +1,2 @@
 # webdev_lab1
-CReating my first website for LAB1
+Creating my first website for LAB1
