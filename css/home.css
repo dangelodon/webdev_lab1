@@ -1,0 +1,162 @@
+.hero {
+    max-width: 1180px;
+    margin: auto;
+    min-height: 620px;
+    padding: 90px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 7vw, 76px);
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    margin-top: 24px;
+    color: var(--muted);
+    font-size: 22px;
+}
+
+.hero-buttons {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.btn,
+.small-btn {
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.btn.secondary {
+    border: 1px solid var(--border);
+    padding: 12px 22px;
+    color: var(--text);
+}
+
+.hero-list {
+    margin-top: 32px;
+    list-style: none;
+    color: var(--muted);
+}
+
+.hero-list li {
+    margin-bottom: 12px;
+}
+
+.hero-list li::before {
+    content: "•";
+    color: var(--cyan);
+    margin-right: 10px;
+}
+
+.hero-graphic {
+    display: flex;
+    justify-content: center;
+}
+
+.brain-card {
+    width: 380px;
+    height: 380px;
+    border: 2px solid var(--border);
+    border-radius: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 140px;
+    background: rgba(0, 140, 255, 0.08);
+    box-shadow: 0 0 80px rgba(0, 140, 255, 0.35);
+}
+
+.ticker {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    color: var(--muted);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.section {
+    max-width: 1680px;
+    margin: auto;
+    padding: 70px 24px;
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 28px;
+}
+
+.steps-grid,
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.program-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card,
+.program-card,
+.cta-banner {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 26px;
+    box-shadow: 0 0 30px rgba(0, 140, 255, 0.08);
+}
+
+.card-icon {
+    font-size: 28px;
+}
+
+.card h3,
+.program-card h3 {
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+.card p,
+.program-card p {
+    margin-top: 8px;
+    color: var(--muted);
+}
+
+.center {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.small-btn {
+    margin-top: 24px;
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    color: white;
+}
+
+.cta-banner {
+    min-height: 180px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.cta-banner h2 {
+    text-transform: uppercase;
+}
+
+.cta-banner h2 {
+    text-transform: uppercase;
+}

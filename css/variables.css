@@ -1,0 +1,51 @@
+:root {
+  /* Colores principales */
+  --color-bg: #050b18;
+  --color-bg-secondary: #07101f;
+  --color-card: rgba(9, 20, 40, 0.85);
+  --color-primary: #1aa7ff;
+  --color-secondary: #25d7ff;
+  --color-text: #f5f7ff;
+  --color-muted: #9ca8c7;
+  --color-border: rgba(55, 170, 255, 0.35);
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(
+    135deg,
+    var(--color-secondary),
+    #246bff
+  );
+
+  --gradient-background:
+    radial-gradient(
+      circle at top right,
+      rgba(21, 101, 255, 0.22),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(0, 179, 179, 0.12),
+      transparent 38%
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-bg),
+      var(--color-bg-secondary)
+    );
+
+  /* Medidas */
+  --container-width: 1200px;
+  --page-padding: 24px;
+
+  /* Bordes */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 24px;
+
+  /* Sombras */
+  --shadow-card: 0 0 30px rgba(0, 140, 255, 0.08);
+  --shadow-glow: 0 0 80px rgba(0, 140, 255, 0.35);
+
+  /* Transiciones */
+  --transition: 200ms ease;
+}
