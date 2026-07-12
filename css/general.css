@@ -88,7 +88,6 @@ strong {
     font-weight: 600;
 }
 
-
 /* === ACCESIBILIDAD === */
 
 a:focus-visible,
@@ -99,7 +98,6 @@ select:focus-visible {
     outline: 2px solid var(--secondary);
     outline-offset: 4px;
 }
-
 
 /* === UTILIDADES DE LAYOUT === */
 
@@ -115,7 +113,6 @@ select:focus-visible {
     padding-block: var(--section-spacing);
 }
 
-
 /* === HEADER === */
 
 .header {
@@ -127,7 +124,6 @@ select:focus-visible {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 }
-
 
 /* === NAVBAR === */
 
@@ -221,7 +217,6 @@ select:focus-visible {
     border-color: var(--primary);
 }
 
-
 /* === BOTÓN DEL MENÚ MÓVIL === */
 
 .menu-btn {
@@ -232,7 +227,6 @@ select:focus-visible {
     color: var(--text);
     font-size: 28px;
 }
-
 
 /* === FOOTER === */
 
@@ -266,8 +260,7 @@ select:focus-visible {
 .footer-links a:hover {
     color: var(--text);
 }
-
-
+a
 /* === RESPONSIVE === */
 
 @media (max-width: 800px) {
